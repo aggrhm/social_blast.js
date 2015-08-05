@@ -1,0 +1,8 @@
+{
+  "name": "social_blast",
+  "version": "0.0.1",
+  "main": [
+    "dist/js/social_blast.js"
+  ],
+  "dependencies": {}
+}
