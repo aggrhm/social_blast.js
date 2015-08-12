@@ -51,7 +51,7 @@ window.SocialBlast = {
 	},
 
 	buildMailShareURL : function(opts) {
-		var body = opts.title + "%0D%0A%0D%0A" + opts.description + "%0D%0A%0D%0A" + opts.share_url;
+		var body = opts.description + "%0D%0A%0D%0A" + opts.share_url;
 		var url = "mailto:?subject=" + opts.title + "&body=" + body;
 		return url;
 	},
